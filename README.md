@@ -51,8 +51,16 @@ idleManager.start(); // Starts tracking user activity
   A callback function that will be triggered when the user becomes active again.
 
 - **`events`** (optional):  
-  An array of event types to listen for user activity.
-  _Default: `['mousemove', 'keydown', 'mousedown', 'touchstart', 'touchmove', 'visibilitychange']`_
+  An array of event types to listen for user activity. <br>
+  _Default: `['mousemove', 'keydown', 'mousedown', 'touchstart', 'touchmove', 'visibilitychange', 'scroll', 'resize']`_
+  - **`mousemove`** Any movement of the mouse indicates user activity.
+  - **`keydown`** Pressing keys on the keyboard, for example, when the user is typing text.
+  - **`mousedown`** Pressing the mouse button, which often occurs when interacting with elements.
+  - **`touchstart`** The start of a touch event on mobile devices.
+  - **`touchmove`** Movement of a finger on a mobile device's screen.
+  - **`visibilitychange`** The visibility change of the page (e.g., switching tabs).
+  - **`scroll`** Scrolling the page or an element, which is a clear sign of user activity.
+  - **`resize`** Changing the browser window size (sometimes used to track activity).
 
 ## Methods
 
