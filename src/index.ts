@@ -11,24 +11,26 @@ export default class IdleManager {
     idleTime = 60000,
     onIdle,
     onActive,
-  }: {
-    idleTime?: number;
-    onIdle: () => void;
-    onActive: () => void;
-  }) {
-    this.idleTime = idleTime;
-    this.onIdle = onIdle;
-    this.onActive = onActive;
-    this.timer = null;
-    this.isIdle = false;
-    this.events = [
+    events = [
       "mousemove",
       "keydown",
       "mousedown",
       "touchstart",
       "touchmove",
       "visibilitychange",
-    ];
+    ],
+  }: {
+    idleTime?: number;
+    onIdle: () => void;
+    onActive: () => void;
+    events?: string[];
+  }) {
+    this.idleTime = idleTime;
+    this.onIdle = onIdle;
+    this.onActive = onActive;
+    this.timer = null;
+    this.isIdle = false;
+    this.events = events;
     this.handleEvent = this.resetTimer.bind(this);
   }
 
