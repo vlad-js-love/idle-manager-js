@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Detect user inactivity and track active state with ease.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && babel dist --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && babel dist --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
     "idle",
     "user-activity",
     "afk",
+    "screen-activity",
     "inactivity",
     "idle-tracker",
     "user-idle",
