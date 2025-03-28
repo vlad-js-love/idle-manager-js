@@ -50,6 +50,10 @@ idleManager.start(); // Starts tracking user activity
 - **`onActive`** (required):  
   A callback function that will be triggered when the user becomes active again.
 
+- **`events`** (optional):  
+  An array of event types to listen for user activity.
+  _Default: `['mousemove', 'keydown', 'mousedown', 'touchstart', 'touchmove', 'visibilitychange']`_
+
 ## Methods
 
 ### `start()`

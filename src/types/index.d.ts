@@ -1,9 +1,9 @@
-// types/index.d.ts
 declare module 'idle-manager' {
   export interface IdleManagerOptions {
     idleTime?: number; // timeout in milliseconds
     onIdle: () => void; // callback for idle state
     onActive: () => void; // callback for active state
+    events?: string[]; // array of events to listen to (optional, all events are activated by default)
   }
 
   export default class IdleManager {
