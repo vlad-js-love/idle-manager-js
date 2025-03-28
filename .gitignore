@@ -30,3 +30,7 @@ Thumbs.db
 *.tgz
 *.lock
 *.bak
+
+# Files for testing
+src/index.html
+src/index.js

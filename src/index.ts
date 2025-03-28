@@ -18,6 +18,8 @@ export default class IdleManager {
       "touchstart",
       "touchmove",
       "visibilitychange",
+      "scroll",
+      "resize",
     ],
   }: {
     idleTime?: number;
