@@ -1,0 +1,39 @@
+{
+  "name": "idle-manager-js",
+  "version": "1.0.0",
+  "description": "Detect user inactivity and track active state with ease.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && babel dist --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlad-js-love/idle-manager-js.git"
+  },
+  "keywords": [
+    "idle",
+    "user-activity",
+    "afk",
+    "inactivity",
+    "idle-tracker",
+    "user-idle",
+    "session-timeout",
+    "activity-monitor"
+  ],
+  "author": "Vladyslav Kravchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlad-js-love/idle-manager-js/issues"
+  },
+  "homepage": "https://github.com/vlad-js-love/idle-manager-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-typescript": "^7.27.0",
+    "@types/node": "^22.13.14",
+    "babel-loader": "^10.0.0",
+    "typescript": "^5.8.2"
+  }
+}
