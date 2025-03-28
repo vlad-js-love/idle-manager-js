@@ -8,7 +8,11 @@ To install the library, execute one of the commands:
 
 ```bash
 npm install idle-manager-js
+```
+```bash
 yarn add idle-manager-js
+```
+```bash
 pnpm add idle-manager-js
 ```
 
