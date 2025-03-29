@@ -80,6 +80,12 @@ Triggers the idle timeout, marking the user as idle.
 
 This project is licensed under the MIT License.
 
+## Support the Project 💖  
+
+If you find `idle-manager-js` useful and want to support its development, consider making a donation:  
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?business=vladk7072@gmail.com)
+
 ## Contributing
 
 We welcome contributions! If you have ideas, improvements, or fixes — please feel free to create a Pull Request or open an Issue.
