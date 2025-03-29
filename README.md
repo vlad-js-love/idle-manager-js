@@ -89,3 +89,5 @@ If you find `idle-manager-js` useful and want to support its development, consid
 ## Contributing
 
 We welcome contributions! If you have ideas, improvements, or fixes — please feel free to create a Pull Request or open an Issue.
+
+![npm](https://img.shields.io/npm/dt/idle-manager-js)
